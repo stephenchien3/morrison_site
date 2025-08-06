@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   description: "Track your words. Build your habit. Morrison makes writing simple, focused, and rewarding.",
 };
 
+
+import Link from "next/link";
+// Inside your component JSX:
+<Link href="/privacy" className="text-sm text-[#8b7355] underline hover:text-[#a68a64]">
+  Privacy Policy
+</Link>
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
