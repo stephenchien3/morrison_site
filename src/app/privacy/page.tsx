@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -27,9 +26,7 @@ export default function PrivacyPage() {
         </ul>
 
         <h2 className="text-2xl font-semibold mt-4">How We Use Your Data</h2>
-        <p>
-          The information collected is used solely to:
-        </p>
+        <p>The information collected is used solely to:</p>
         <ul className="list-disc list-inside">
           <li>Enhance your writing experience</li>
           <li>Provide personalized habit tracking and insights</li>
@@ -44,15 +41,33 @@ export default function PrivacyPage() {
 
         <h2 className="text-2xl font-semibold mt-4">Third-Party Services</h2>
         <p>
-          We do not sell or share your personal information with third parties except
-          for trusted services needed to operate the app (e.g., analytics providers).
+          We use trusted third-party services to operate and improve the app,
+          including <strong>Firebase Analytics by Google</strong>, which helps us
+          understand how users interact with the app to enhance your experience.
+          Firebase Analytics collects data such as device information, usage
+          statistics, and user events.
+        </p>
+        <p>
+          Firebase’s privacy practices are governed by{" "}
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#8b7355] underline"
+          >
+            Google’s Privacy Policy
+          </a>
+          .
+        </p>
+        <p>
+          We do not sell or share your personal information with other third parties.
         </p>
 
         <h2 className="text-2xl font-semibold mt-4">Your Rights</h2>
         <p>
           You may request access to your data or ask for deletion by contacting us at{" "}
           <a
-            href="mailto:privacy@morrisonapp.com"
+            href="mailto:morrisonapp1001@gmail.com"
             className="text-[#8b7355] underline"
           >
             morrisonapp1001@gmail.com
@@ -65,8 +80,6 @@ export default function PrivacyPage() {
           We may update this policy occasionally. We encourage you to review it
           periodically for any changes.
         </p>
-
-
       </div>
     </div>
   );
