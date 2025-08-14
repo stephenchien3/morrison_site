@@ -41,11 +41,7 @@ export default function PrivacyPage() {
 
         <h2 className="text-2xl font-semibold mt-4">Third-Party Services</h2>
         <p>
-          We use trusted third-party services to operate and improve the app,
-          including <strong>Firebase Analytics by Google</strong>, which helps us
-          understand how users interact with the app to enhance your experience.
-          Firebase Analytics collects data such as device information, usage
-          statistics, and user events.
+          We do not use any third-party services that collect personal data.
         </p>
         <p>
           Firebase’s privacy practices are governed by{" "}
